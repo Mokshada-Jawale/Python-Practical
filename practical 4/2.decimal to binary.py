@@ -1,5 +1,5 @@
-
-def dtob(d):
+#Program to convert decimal value into binary
+def num(d):
     b = ''
     d = int(d)
     while (d != 0):
@@ -10,4 +10,4 @@ def dtob(d):
     return (b)
 
 n=int(input("Enter a decimal number: "))
-print("The binary equivalent of decimal",n,"is ",dtob(n))
+print("The binary equivalent of decimal",n,"is ",num(n))
