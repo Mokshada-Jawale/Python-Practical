@@ -8,3 +8,7 @@ while (binary != 0):
     binary = binary // 10
     i += 1
 print('The decimal number equivalent to binary number',binary1,'is',decimal)
+
+#or
+#n = input('Enter binary number= ')
+#print('Decimal number is= ',int(n,2))
