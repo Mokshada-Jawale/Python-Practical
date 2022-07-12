@@ -1,3 +1,4 @@
+# Program to count occurences of all words in a sentence
 from collections import Counter
 s=input("Enter a string: ")
 l=list(map(str, s.split(" ")))
