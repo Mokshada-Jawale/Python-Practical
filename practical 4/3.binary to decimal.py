@@ -1,18 +1,10 @@
-def btod(b):
-    l = len(b)
-    d = 0
-    a = -1
-    counter = 0
-    while (counter < l):
-        if (b[a] != '0' and b[a] != '1'):
-            print('This is not binary')
-            break;
-        else:
-            d1 = int(b[a]) * (2 ** counter)
-            d += d1
-        a -= 1
-        counter += 1
-    return (d)
-
-n=int(input("Enter a binary number: "))
-print("The decimal equivalent of binary number",n,"is ",btod(str(n)))
+#program to convert binary number to decimal number
+binary = int(input('Enter binary number: '))
+binary1 = binary
+decimal, i, n = 0, 0, 0
+while (binary != 0):
+    dec = binary % 10
+    decimal = decimal + dec * pow(2, i)
+    binary = binary // 10
+    i += 1
+print('The decimal number equivalent to binary number',binary1,'is',decimal)
