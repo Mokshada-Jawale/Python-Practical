@@ -11,3 +11,7 @@ def num(d):
 
 n=int(input("Enter a decimal number: "))
 print("The binary equivalent of decimal",n,"is ",num(n))
+
+#or
+#n = int(input('Enter decimal number= '))
+#print('binary number equivalent of decimal number is= ',bin(n)[2:])
